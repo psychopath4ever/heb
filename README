@@ -7,12 +7,12 @@ In the game every player has 12 game stones (WHITE or BLACK) with the same weigh
 At the start of the game the 24 stones are placed symmetrical [for the project-start, there will only be one startszenario].
 Additionaly every player has a save-area. Everytime a player gets a stone to the last spot of the lever (+1) the stone gets in the save-area and counts as a point. This stone is out of the active game, so the player lose in the active field.
 
-The player who placed three of his stones in the save-area wins the game.
+The player who placed four of his stones in the save-area wins the game.
 
 Play the game:
 In a normal turn the player has two actionpoints.
 1. The movement of one stone is one action. You can move the stone in one direction of your choice, but not upwards any lever. With this move you can jump over your own stones(even more than one).
-2. With the move you can capture one stone of the other player. This costs both actionpoints. It is only possible, if you can move (not upwards) and the position behinf the enemy stone is empty.
+2. With the move you can capture one stone of the other player. This costs both actionpoints. It is only possible, if you can move (not upwards) and the position behind the enemy stone is empty.
 The captured stone has to be replaced anywhere on the (8x8-)board right away.
 
 
@@ -22,4 +22,5 @@ The captured stone has to be replaced anywhere on the (8x8-)board right away.
 It will be python based, cause it should be the basis for an self learning algorithm.
 
 
-Version 0.0 just the initial base.
+-Version 0.0 just the initial base.
+-Version 0.1 Start Play the game;
